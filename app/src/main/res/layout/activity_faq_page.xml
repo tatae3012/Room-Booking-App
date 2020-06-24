@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".faq_page">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+    android:background="@drawable/faq">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:padding="20sp"
+        android:drawableLeft="@drawable/ic_info"
+        android:text="FREQUENTLY ASKED QUESTIONS"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q1. How to book a stay in MTV Rooms?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="A1. Download our app from play store and then sign up to avail the booking facility."
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q2. What are the documents that are required during Check-in?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:maxLines="10"
+        android:text="A2. government approved photo identity proof with address of you and your companion."
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q3. What are the extra services that MTV Rooms offer?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="A3. We offer upright services in terms of security, cleanliness, and hygiene. "
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q4. Can we avail of any special offers at MTV Rooms?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="A4. Yes we have special offers for all our locations. Give a missed call on 01294044191."
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q5. How do I cancel my Room booking?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="A5. You may cancel your booking from our app or over the telephone."
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q6. What if I have additional questions about the room that I wish to book?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="A6. MTV Rooms provides you the facility of chatting with the landloard."
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q7. How do I know if my booking was successful?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="A7. We’ll send you an email confirmation for your hotel booking."
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q8. What if I'm going to arrive early?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="A8. We’ll do our best to accommodate your, but it’s ultimately subject to room availability."
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="Q9. How long does it take to process this refund?"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:padding="10sp"
+        android:text="A9. We usually process the refund within 4 working days from the cancellation request."
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
